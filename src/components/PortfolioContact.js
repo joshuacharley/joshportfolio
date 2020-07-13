@@ -53,8 +53,8 @@ class PortfolioContact extends React.Component {
 
           <div className="mt-5">
             <p>joshuacharley87@gmail.com</p>
-            <p>Let's make something special</p>
-            <p> <a href="https://docs.google.com/uc?export=download&id=1-BHDpTCafC-r1U4nusxAmBiUN-JOsGL1">Download My Resume</a></p>
+            <p>Let's build something special</p>
+            <p> <a href="https://docs.google.com/uc?export=download&id=19vwKUI2AKnnBf2SZCn6x6wnPpCYMdrqy">Download My Resume</a></p>
           </div>
 
         </Container>

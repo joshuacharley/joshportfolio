@@ -13,7 +13,7 @@ const PortfolioAbout = () => {
         <h1 className="display-4" id="about-headline">About Me</h1>
         <hr id="about-hr"/>
         <p>
-          I build full stack web applications, Hybrid or Ract-Native Application  using effective, minimalist designs.
+          I build full stack web applications, Hybrid or React-Native Application  using effective, minimalist designs.
           Take a look at my <a href="#project-section">projects</a> to learn more.
           Feel free to <a href="#contact-section">contact</a> me at any time.
         </p>
