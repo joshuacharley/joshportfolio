@@ -15,11 +15,14 @@ import apertureCode from '../img/projects/aperture-code.jpg'
 import openTicket from '../img/projects/open-ticket.jpg'
 import openTicketDetail from '../img/projects/open-ticket-detail.jpg'
 import openTicketCode from '../img/projects/open-ticket-code.jpg'
-import portfolio from '../img/projects/portfolio.jpg'
-import portfolioDetail from '../img/projects/portfolio-detail.jpg'
+import portfolio from '../img/projects/portfolio.png'
+import portfolioDetail from  '../img/projects/portfolio-detail.jpg'
 import portfolioCode from '../img/projects/portfolio-code.jpg'
 import limImage from '../img/projects/limImage.JPG'
 import limDetails from '../img/projects/limDetails.JPG'
+import postSalone from '../img/projects/postsalone.PNG'
+import postsaloneDetail from '../img/projects/postsalone-detail.png'
+import postsaloneCode from '../img/projects/postsaloneCode.PNG'
 
 
 
@@ -95,7 +98,7 @@ const PortfolioProjects = () => {
                 imageCode = {portfolioCode}
                 title = "Limkokwing University High Flyer"
                 description = "This online University High Flyer is a place that allowed students or people to read and get a better insight about the limkokwing university."
-                // github = "https://github.com/jcruse123/portfolio-version-one/"
+                // github = "https://github.com/josua/portfolio-version-one/"
                 link = "http://limkokwinghighflyermannual.000webhostapp.com/"
                 modal = "This online University High Flyer is a place that allowed students or people to read and get a better insight about the limkokwing university. It is built using Vuejs and Quasar."
                 modalTwo = ""
@@ -107,9 +110,21 @@ const PortfolioProjects = () => {
                 imageCode = {portfolioCode}
                 title = "Developer Portfolio"
                 description = "This online portfolio is a place to display my projects and allow anyone to easily send me a message."
-                github = "https://github.com/jcruse123/portfolio-version-one/"
-                link = "https://www.joshuacruse.us/"
+                github = "https://github.com/joshuacharley/Josh-resume"
+                link = "https://joshuaportfolio.netlify.app/"
                 modal = "This online portfolio is a place to display my projects and allow anyone to easily send me a message. It is built using React and Node.js."
+                modalTwo = ""
+              />
+
+              <Project
+                image = {postSalone}
+                imageDetail = {postsaloneDetail}
+                imageCode = {postsaloneCode}
+                title = "Post Salone"
+                description = "This is a replica of instagram which allows you to upload pictures, posts and commenting on posts"
+                github = "https://github.com/joshuacharley/talksalone"
+                link = "https://postsalone.netlify.app/"
+                modal = "This is a pwa application built on react, material-ui and firebase. Tis a poweful application that allow a user to signup and sigin, create posts and upload images and can be developed more into versions."
                 modalTwo = ""
               />
 
