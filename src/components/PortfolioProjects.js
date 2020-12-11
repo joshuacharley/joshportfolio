@@ -3,18 +3,15 @@ import { Parallax } from 'react-parallax'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Project from './Project'
-import randomWeather from '../img/projects/random-weather.jpg'
-import randomWeatherDetail from '../img/projects/random-weather-detail.jpg'
-import randomWeatherCode from '../img/projects/random-weather-code.jpg'
+import netflixclonehome from '../img/projects/netflix-code.png'
+import netflixclonecode from '../img/projects/netflix-clonehome.png'
 import safeslaoneImage from '../img/projects/safeslaoneImage.jpg'
 import safesaloneDetails from '../img/projects/safesaloneDetails.jpg'
 import safesaloneCode from '../img/projects/safesaloneCode.JPG'
-import aperture from '../img/projects/aperture.jpg'
-import apertureDetail from '../img/projects/aperture-detail.jpg'
-import apertureCode from '../img/projects/aperture-code.jpg'
-import openTicket from '../img/projects/open-ticket.jpg'
-import openTicketDetail from '../img/projects/open-ticket-detail.jpg'
-import openTicketCode from '../img/projects/open-ticket-code.jpg'
+import covid19home from '../img/projects/covid-19home.png'
+import covid19code from '../img/projects/covid-19code.png'
+import suggHome from '../img/projects/suggHome.png'
+import suggcode from '../img/projects/sugg-code.png'
 import portfolio from '../img/projects/portfolio.png'
 import portfolioDetail from  '../img/projects/portfolio-detail.jpg'
 import portfolioCode from '../img/projects/portfolio-code.jpg'
@@ -43,17 +40,15 @@ const PortfolioProjects = () => {
             <h1 className="display-4" id="project-headline">Projects</h1>
             <hr className="pb-3" id="project-hr" />
             <Row>
-
               <Project
-                image = {randomWeather}
-                imageDetail = {randomWeatherDetail}
-                imageCode = {randomWeatherCode}
-                title = "Random Weather"
-                description = "This application displays a number of locations along with weather data from those locations. Click on a map marker to display detailed weather information."
-                github = "https://github.com/joshuacharley/random-weather"
-                link = "https://random-weather.herokuapp.com/"
-                modal = "This application consists of two parts. It uses a back end server built using Node.js and Express that makes use of two external APIs to get weather data about a specific number of random locations in the world. This data is then used by the front end to display the data on an interactive map. The front end is built using React."
-                modalTwo= "The objective for this project was to gain experience using data from external APIs with an interactive front end."
+                image = {netflixclonecode}
+                imageCode = {netflixclonehome}
+                title = "Netflix Clone"
+                description = "In this Netflix React Clone, user is presented with the Netflix experience. Sign up, browse, and watch your favorite shows!"
+                github = "https://github.com/joshuacharley/netflix-clone"
+                link = "https://joshuanetflix-clone.netlify.app/"
+                modal = "This web application uses Cloud Database and User Authentication via Firebase/Firestore"
+                modalTwo= "The objective for this project was to satisfy my react skills with react-router, styled-components and firebase/firestore for easy backend implementation"
               />
 
               <Project
@@ -69,27 +64,25 @@ const PortfolioProjects = () => {
               />
 
               <Project
-                image = {openTicket}
-                imageDetail = {openTicketDetail}
-                imageCode = {openTicketCode}
-                title = "Open Ticket"
-                description = "Open Ticket is an easy to use issue tracker powered by React. Create a new ticket or track your progress on an existing ticket using journal entries."
-                github = "https://github.com/joshuacharley/open-ticket-tracker"
-                link = "https://open-ticket-complete.herokuapp.com"
-                modal = "Open Ticket is an easy to use issue tracker made with MongoDB, Express, React, and Node.js. Create a new ticket or track your progress on an existing ticket using journal entries."
-                modalTwo = "The idea for this application came from my experience using issue tracking applications in the IT field. The goal of the project was to create an online version of the issue trackers that many IT specialists use every day."
+                image = {covid19home}
+                imageCode = {covid19code}
+                title = "Covid19 Tracker"
+                description = "Covid-19 Tracker is a Vue application that tracks coronavirus daily updates realtime and automatically sync your current location."
+                github = "https://github.com/joshuacharley/salonecovid19"
+                link = "https://salonecovid19.netlify.app/"
+                modal = "salonecovid19 tracker is a vue.js application using external api to get realtime daily updates on the coronavirus. This application will automatically give you result base on your current location i.e country."
+                modalTwo = "The idea for this application came from my experience using analytics tracking applications in the tech field. Objective was to gain a maximum understaing playing with api and minimal designing skills"
               />
 
               <Project
-                image = {aperture}
-                imageDetail = {apertureDetail}
-                imageCode = {apertureCode}
-                title = "Aperture"
-                description = "Aperture is a place for photography enthusiasts to post their best photos. Sign up to post your own photo and leave a five star rating on your favorite picture."
-                github = "https://github.com/joshuacharley/aperture-photo"
-                link = "https://aperture-photo.herokuapp.com/photos/"
-                modal = "Aperture was made using Javascript, Express, and Node.js. Users can post photos, leave comments, and rate their favorite photos."
-                modalTwo = "This application began as the final project for an online web development course where users could leave reviews for various camp sites. I used the existing back end of the project and redesigned the front end to create this application."
+                image = {suggHome}
+                imageCode = {suggcode}
+                title = "Suggestion-Box App"
+                description = "Suggestion-Box is a node.js application that allows team or employes to suggest ideas within a certain workplace"
+                github = "https://github.com/joshuacharley/easysolarsuggestionapp"
+                link = "https://easysolarsuggestionbox.herokuapp.com/"
+                modal = "Suggestion-Box was made using Javascript, Express, MongoDB and Node.js. Users can post suggestions privately or public, signup-google, and see all suggestions including profiles."
+                modalTwo = "This application was developed for a company called easysolar for a safe and easy way to get employes ideas to promote the business."
               />
 
               <Project
